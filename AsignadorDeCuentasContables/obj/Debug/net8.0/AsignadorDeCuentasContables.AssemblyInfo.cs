@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AsignadorDeCuentasContables")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cc70fe3cb7671da1c1270d477f7b351a03bc22f1")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2ad58d1393f28c16426962791dbfb4029cbaae70")]
 [assembly: System.Reflection.AssemblyProductAttribute("AsignadorDeCuentasContables")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AsignadorDeCuentasContables")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

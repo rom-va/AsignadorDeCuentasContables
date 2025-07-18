@@ -5,6 +5,7 @@ using System.Numerics;
 using System.Reflection.Metadata.Ecma335;
 using System.Runtime.CompilerServices;
 using System.Text;
+using System.Text.Json;
 using System.Text.Json.Serialization;
 using System.Threading.Tasks;
 
@@ -12,7 +13,7 @@ namespace AsignadorDeCuentasContables.DeepSeekAPI
 {
     public class Response
     {
-        public string id { get; set; }
+        public string Id { get; set; }
         public List<Choice> Choices { get; set; }
         public int Created { get; set; }
         public string Model { get; set; }
@@ -20,6 +21,18 @@ namespace AsignadorDeCuentasContables.DeepSeekAPI
         public string SystemFingerprint { get; set; }
         public string Object { get; set; }
         public Usage Usage { get; set; }
+
+        public string GetJson()
+        {
+            JsonSerializerOptions options = new JsonSerializerOptions
+            {
+                PropertyNamingPolicy = JsonNamingPolicy.CamelCase,
+                DefaultIgnoreCondition = JsonIgnoreCondition.WhenWritingNull,
+                WriteIndented = true
+            };
+
+            return JsonSerializer.Serialize(this, options);
+        }
     }
     public class Usage
     {
@@ -103,6 +116,6 @@ namespace AsignadorDeCuentasContables.DeepSeekAPI
     {
         public string Name { get; set; }
         public string Arguments { get; set; }
-    }
+    }    
 }
 

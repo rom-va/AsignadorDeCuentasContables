@@ -6,6 +6,8 @@ using Microsoft.Extensions.Configuration;
 using AsignadorDeCuentasContables.DeepSeekAPI;
 using System.Net.Http.Headers;
 using Microsoft.Extensions.FileSystemGlobbing.Abstractions;
+using System.Reflection.Metadata;
+
 namespace Tests
 {
     internal class DeepSeekTests
@@ -114,6 +116,57 @@ namespace Tests
             }
         }
 
+        internal static void TemplateCompletionTest()
+        {
+            Console.WriteLine("---------------------------------------------");
+            Console.WriteLine("Template Completion Test (Uses DeepSeek API)");
+            Console.WriteLine("---------------------------------------------");
+
+            // Opening documents containing accounting chart and transactions
+
+            string accountingChart = File.ReadAllText("Documents/plan2025.txt");
+            string transactions = File.ReadAllText("Documents/20607224375-CS-CLOUD-202504-SHORTENED.txt");
+
+            // API key handling
+
+            var configuration = new ConfigurationBuilder()
+                .AddJsonFile("appsettings.json", optional: false)
+                .Build();
+            string apiKey = configuration["apisettings:deepseekapikey"];
+
+            // Building orchestrator
+
+            var orchestrator = new CompletionRequestOrchestrator
+            {
+                LlmModelName = "deepseek-chat",
+                ApiKey = apiKey,
+                AccountingChart = accountingChart,
+                TemplateFormat = "tab-separated values",
+                LoadedTemplates = transactions
+            };
+
+            orchestrator.BuildRequest();
+
+            // Having a look at the built request and loaded data
+            
+            string body = orchestrator.HttpPostRequestContent.ReadAsStringAsync().Result;
+
+            Console.WriteLine("Body of the HTTP request contains:");
+            Console.WriteLine(body);
+
+            // Executing request (WARNING: Call to DeepSeek API)
+
+            string result = orchestrator.ExecuteRequest();
+
+            Console.WriteLine("Request executed. Look for the generated text documents in bin.");
+
+            string path = "completedTemplates.txt";
+            File.WriteAllText(path, orchestrator.FilledTemplates);
+
+            path = "completedTemplatesJson.txt";
+            File.WriteAllText(path, orchestrator.Response.GetJson());
+        }
+
         static void Main(string[] args)
         {
             // Test 1 (WARNING: Includes call to API)
@@ -122,6 +175,13 @@ namespace Tests
             // Test 2
             //ResponseDeserializationTest();
 
-        }
+            // Test 3 (WARNING: Includes call to API)
+            //TemplateCompletionTest();
+
+            // Test 4 Tokenization test (Integration with Python module)
+            TokenCalculator.TokenCalculator calculator = new TokenCalculator.TokenCalculator();
+            int tokenCount = calculator.calculateText("Hola, me llamo Romina");
+            Console.WriteLine($"Number of used tokens: { tokenCount }");
+        }        
     }
 }

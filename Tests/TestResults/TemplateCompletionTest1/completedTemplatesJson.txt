@@ -1,0 +1,27 @@
+{
+  "id": "3d17a410-a470-453c-bb0a-e6e3f50a1432",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "message": {
+        "content": "Identidad\tProveeedor\tNombre\tTipoDoc\tSerie\tNroDoc\tFechaEmision\tFechaVcto\tFechaRegistro\tMoneda\tTipoCambio\tReparable\tFactorR\tConcepto\tMonto\tVave\tPorIgv\tMtoIgv\tPorIsc\tMtoIsc\tMtoNoGrava\tOtros\tPosicion\tTipoRef\tSerieRef\tNroRef\tFechRef\tAfectoD\tDato\tCodD\tFechVD\tDepositoD\tFechDD\tNroOc\tNroContrato\tDua\tSunat\tComprob\tCuenta\tMtoGasto\tDH\tRelacion2\tCodGlosa\tPartida\tCCosto\tTarea\tAfe\tProyecto\tCta_proveedor\tCta_igv\tCta_isc\n6\t10439175872\tAROSTEGUI PICON FRANKLIN\t01\tE001\t146\t03/04/2025\t\t\tPEN\t1.000\t\t\tLegalizaci\u00F3n notarial de documentos\t800.00\t0.00\t\t0.00\t\t\t800.00\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t63291\n6\t20601033250\tTURISMO NUPE SOCIEDAD COMERCIAL DE RESPONSABILIDAD LIMITADA\t01\tE001\t305\t13/04/2025\t\t\tPEN\t1.000\t\t\tTour de gerencia a B\u00E9lgica\t650.00\t0.00\t\t0.00\t\t\t650.00\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t63152\n6\t20612194514\tAGROFARMS R\u0026K PERU S.A.C.\t01\tE001\t48\t16/04/2025\t\t\tUSD\t3.750\t\t\tFertilizantes\t7500.00\t0.00\t\t0.00\t\t\t7500.00\t\t\t\t\t\t\tD\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t6021\n6\t20612194514\tAGROFARMS R\u0026K PERU S.A.C.\t01\tE001\t49\t25/04/2025\t\t\tUSD\t3.683\t\t\tSemillas de arveja\t20561.67\t0.00\t\t0.00\t\t\t20561.67\t\t\t\t\t\t\tD\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t6021\n6\t20606331089\tFUPLAST PERU S.A.C.\t01\tE001\t5190\t01/04/2025\t\t\tPEN\t1.000\t\t\tJabas de pl\u00E1stico\t2832.00\t2400.00\t\t432.00\t\t\t0.00\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t6031\n6\t20408107068\tTRANSPORTE DE REFRIGERADOS SANTIAGO E.I.R.L.\t01\tE001\t5578\t05/04/2025\t\t\tPEN\t1.000\t\t\ttransporte\t2360.00\t2000.00\t\t360.00\t\t\t0.00\t\t\t\t\t\t\tD\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t63111\n6\t20408107068\tTRANSPORTE DE REFRIGERADOS SANTIAGO E.I.R.L.\t01\tE001\t5582\t05/04/2025\t\t\tPEN\t1.000\t\t\ttransporte\t826.00\t700.00\t\t126.00\t\t\t0.00\t\t\t\t\t\t\tD\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t63111",
+        "role": "assistant"
+      }
+    }
+  ],
+  "created": 1752782294,
+  "model": "deepseek-chat",
+  "system_fingerprint": "fp_8802369eaa_prod0623_fp8_kvcache",
+  "object": "chat.completion",
+  "usage": {
+    "completion_tokens": 716,
+    "prompt_tokens": 33277,
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 33277,
+    "total_tokens": 33993,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    }
+  }
+}

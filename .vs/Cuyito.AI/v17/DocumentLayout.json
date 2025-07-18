@@ -1,0 +1,156 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\roth5\\Documents\\AsignadorDeCuentasContables\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E7625AEA-7FC2-4C93-812B-1029A48DB2E4}|Cuyito.API\\Cuyito.API.csproj|c:\\users\\roth5\\documents\\asignadordecuentascontables\\cuyito.api\\controllers\\accountingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E7625AEA-7FC2-4C93-812B-1029A48DB2E4}|Cuyito.API\\Cuyito.API.csproj|solutionrelative:cuyito.api\\controllers\\accountingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C31FBA4D-C8CC-405F-9D7D-D3567C534171}|AsignadorDeCuentasContables\\AsignadorDeCuentasContables.csproj|c:\\users\\roth5\\documents\\asignadordecuentascontables\\asignadordecuentascontables\\deepseekapi\\completionrequestorchestrator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C31FBA4D-C8CC-405F-9D7D-D3567C534171}|AsignadorDeCuentasContables\\AsignadorDeCuentasContables.csproj|solutionrelative:asignadordecuentascontables\\deepseekapi\\completionrequestorchestrator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7625AEA-7FC2-4C93-812B-1029A48DB2E4}|Cuyito.API\\Cuyito.API.csproj|c:\\users\\roth5\\documents\\asignadordecuentascontables\\cuyito.api\\completionoutput.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E7625AEA-7FC2-4C93-812B-1029A48DB2E4}|Cuyito.API\\Cuyito.API.csproj|solutionrelative:cuyito.api\\completionoutput.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7625AEA-7FC2-4C93-812B-1029A48DB2E4}|Cuyito.API\\Cuyito.API.csproj|c:\\users\\roth5\\documents\\asignadordecuentascontables\\cuyito.api\\completioninput.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E7625AEA-7FC2-4C93-812B-1029A48DB2E4}|Cuyito.API\\Cuyito.API.csproj|solutionrelative:cuyito.api\\completioninput.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7625AEA-7FC2-4C93-812B-1029A48DB2E4}|Cuyito.API\\Cuyito.API.csproj|c:\\users\\roth5\\documents\\asignadordecuentascontables\\cuyito.api\\cuyito.api.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{E7625AEA-7FC2-4C93-812B-1029A48DB2E4}|Cuyito.API\\Cuyito.API.csproj|solutionrelative:cuyito.api\\cuyito.api.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C8FD01C-535D-4A69-AB59-BA985D199EE8}|Tests\\Tests.csproj|c:\\users\\roth5\\documents\\asignadordecuentascontables\\tests\\deepseektests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C8FD01C-535D-4A69-AB59-BA985D199EE8}|Tests\\Tests.csproj|solutionrelative:tests\\deepseektests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C8FD01C-535D-4A69-AB59-BA985D199EE8}|Tests\\Tests.csproj|c:\\users\\roth5\\documents\\asignadordecuentascontables\\tests\\tokencalculator\\tokenizer.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{1C8FD01C-535D-4A69-AB59-BA985D199EE8}|Tests\\Tests.csproj|solutionrelative:tests\\tokencalculator\\tokenizer.py||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C31FBA4D-C8CC-405F-9D7D-D3567C534171}|AsignadorDeCuentasContables\\AsignadorDeCuentasContables.csproj|c:\\users\\roth5\\documents\\asignadordecuentascontables\\asignadordecuentascontables\\deepseekapi\\response.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C31FBA4D-C8CC-405F-9D7D-D3567C534171}|AsignadorDeCuentasContables\\AsignadorDeCuentasContables.csproj|solutionrelative:asignadordecuentascontables\\deepseekapi\\response.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 195,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AccountingController.cs",
+              "DocumentMoniker": "C:\\Users\\roth5\\Documents\\AsignadorDeCuentasContables\\Cuyito.API\\Controllers\\AccountingController.cs",
+              "RelativeDocumentMoniker": "Cuyito.API\\Controllers\\AccountingController.cs",
+              "ToolTip": "C:\\Users\\roth5\\Documents\\AsignadorDeCuentasContables\\Cuyito.API\\Controllers\\AccountingController.cs",
+              "RelativeToolTip": "Cuyito.API\\Controllers\\AccountingController.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAcwCYAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-18T02:33:16.615Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CompletionInput.cs",
+              "DocumentMoniker": "C:\\Users\\roth5\\Documents\\AsignadorDeCuentasContables\\Cuyito.API\\CompletionInput.cs",
+              "RelativeDocumentMoniker": "Cuyito.API\\CompletionInput.cs",
+              "ToolTip": "C:\\Users\\roth5\\Documents\\AsignadorDeCuentasContables\\Cuyito.API\\CompletionInput.cs",
+              "RelativeToolTip": "Cuyito.API\\CompletionInput.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-18T02:29:58.893Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Tokenizer.py",
+              "DocumentMoniker": "C:\\Users\\roth5\\Documents\\AsignadorDeCuentasContables\\Tests\\TokenCalculator\\Tokenizer.py",
+              "RelativeDocumentMoniker": "Tests\\TokenCalculator\\Tokenizer.py",
+              "ToolTip": "C:\\Users\\roth5\\Documents\\AsignadorDeCuentasContables\\Tests\\TokenCalculator\\Tokenizer.py",
+              "RelativeToolTip": "Tests\\TokenCalculator\\Tokenizer.py",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
+              "WhenOpened": "2025-07-18T01:33:12.382Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Cuyito.API.http",
+              "DocumentMoniker": "C:\\Users\\roth5\\Documents\\AsignadorDeCuentasContables\\Cuyito.API\\Cuyito.API.http",
+              "RelativeDocumentMoniker": "Cuyito.API\\Cuyito.API.http",
+              "ToolTip": "C:\\Users\\roth5\\Documents\\AsignadorDeCuentasContables\\Cuyito.API\\Cuyito.API.http",
+              "RelativeToolTip": "Cuyito.API\\Cuyito.API.http",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2025-07-18T02:45:15.431Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DeepSeekTests.cs",
+              "DocumentMoniker": "C:\\Users\\roth5\\Documents\\AsignadorDeCuentasContables\\Tests\\DeepSeekTests.cs",
+              "RelativeDocumentMoniker": "Tests\\DeepSeekTests.cs",
+              "ToolTip": "C:\\Users\\roth5\\Documents\\AsignadorDeCuentasContables\\Tests\\DeepSeekTests.cs",
+              "RelativeToolTip": "Tests\\DeepSeekTests.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAALIAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-18T01:20:56.478Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Response.cs",
+              "DocumentMoniker": "C:\\Users\\roth5\\Documents\\AsignadorDeCuentasContables\\AsignadorDeCuentasContables\\DeepSeekAPI\\Response.cs",
+              "RelativeDocumentMoniker": "AsignadorDeCuentasContables\\DeepSeekAPI\\Response.cs",
+              "ToolTip": "C:\\Users\\roth5\\Documents\\AsignadorDeCuentasContables\\AsignadorDeCuentasContables\\DeepSeekAPI\\Response.cs",
+              "RelativeToolTip": "AsignadorDeCuentasContables\\DeepSeekAPI\\Response.cs",
+              "ViewState": "AQIAAHIAAAAAAAAAAAAswHcAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-18T01:21:27.199Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 195,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CompletionRequestOrchestrator.cs",
+              "DocumentMoniker": "C:\\Users\\roth5\\Documents\\AsignadorDeCuentasContables\\AsignadorDeCuentasContables\\DeepSeekAPI\\CompletionRequestOrchestrator.cs",
+              "RelativeDocumentMoniker": "AsignadorDeCuentasContables\\DeepSeekAPI\\CompletionRequestOrchestrator.cs",
+              "ToolTip": "C:\\Users\\roth5\\Documents\\AsignadorDeCuentasContables\\AsignadorDeCuentasContables\\DeepSeekAPI\\CompletionRequestOrchestrator.cs",
+              "RelativeToolTip": "AsignadorDeCuentasContables\\DeepSeekAPI\\CompletionRequestOrchestrator.cs",
+              "ViewState": "AQIAAD4AAAAAAAAAAAAswHQAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-18T01:21:22.945Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CompletionOutput.cs",
+              "DocumentMoniker": "C:\\Users\\roth5\\Documents\\AsignadorDeCuentasContables\\Cuyito.API\\CompletionOutput.cs",
+              "RelativeDocumentMoniker": "Cuyito.API\\CompletionOutput.cs",
+              "ToolTip": "C:\\Users\\roth5\\Documents\\AsignadorDeCuentasContables\\Cuyito.API\\CompletionOutput.cs",
+              "RelativeToolTip": "Cuyito.API\\CompletionOutput.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-18T02:55:02.906Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

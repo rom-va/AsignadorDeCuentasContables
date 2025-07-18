@@ -124,8 +124,8 @@ namespace Tests
 
             // Opening documents containing accounting chart and transactions
 
-            string accountingChart = File.ReadAllText("Documents/plan2025.txt");
-            string transactions = File.ReadAllText("Documents/20607224375-CS-CLOUD-202504-SHORTENED.txt");
+            string accountingChart = File.ReadAllText("Documents/planSIRE_compras.txt");
+            string transactions = File.ReadAllText("Documents/20607224375-CS-CLOUD-202504-DeekSeekShortened.txt");
 
             // API key handling
 
@@ -175,13 +175,24 @@ namespace Tests
             // Test 2
             //ResponseDeserializationTest();
 
-            // Test 3 (WARNING: Includes call to API)
-            //TemplateCompletionTest();
+            // Test 3(WARNING: Includes call to API)
+            // TemplateCompletionTest();
 
             // Test 4 Tokenization test (Integration with Python module)
-            TokenCalculator.TokenCalculator calculator = new TokenCalculator.TokenCalculator();
-            int tokenCount = calculator.calculateText("Hola, me llamo Romina");
-            Console.WriteLine($"Number of used tokens: { tokenCount }");
+            //TokenCalculator.TokenCalculator calculator = new TokenCalculator.TokenCalculator();
+
+            //string path = "Documents/20607224375-CS-CLOUD-202504-DeekSeekShortened.txt";
+            //string transactions = File.ReadAllText(path);
+
+            //path = "Documents/planSIRE_compras.txt";
+            //string accountingChart = File.ReadAllText(path);
+
+            //int tokenCount = 0;
+
+            //tokenCount+= calculator.calculateText(accountingChart);
+            //tokenCount+= calculator.calculateText(transactions);
+
+            //Console.WriteLine($"Number of tokens in prompt: { tokenCount }");
         }        
     }
 }

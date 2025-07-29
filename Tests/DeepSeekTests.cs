@@ -105,7 +105,7 @@ namespace Tests
             };
 
 
-            var response = JsonSerializer.Deserialize<Response>(responseContent, options);
+            var response = JsonSerializer.Deserialize<CompletionResponse>(responseContent, options);
 
             // Printing out some text content
 
@@ -136,7 +136,7 @@ namespace Tests
 
             // Building orchestrator
 
-            var orchestrator = new CompletionRequestOrchestrator
+            var orchestrator = new DSTemplateFillingService
             {
                 LlmModelName = "deepseek-chat",
                 ApiKey = apiKey,

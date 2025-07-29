@@ -3,11 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34728.123
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AsignadorDeCuentasContables", "AsignadorDeCuentasContables\AsignadorDeCuentasContables.csproj", "{C31FBA4D-C8CC-405F-9D7D-D3567C534171}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BLCuyitoApi", "BLCuyitoApi\BLCuyitoApi.csproj", "{C31FBA4D-C8CC-405F-9D7D-D3567C534171}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tests", "Tests\Tests.csproj", "{1C8FD01C-535D-4A69-AB59-BA985D199EE8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CuyitoApi", "CuyitoApi\CuyitoApi.csproj", "{E7625AEA-7FC2-4C93-812B-1029A48DB2E4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cuyito.API", "Cuyito.API\Cuyito.API.csproj", "{E7625AEA-7FC2-4C93-812B-1029A48DB2E4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DACuyitoApi", "DACuyitoApi\DACuyitoApi.csproj", "{82EEAF19-32B1-44DF-9FCB-CC539BAF6AFE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DACuyitoApi.Tests", "DACuyitoApi.Tests\DACuyitoApi.Tests.csproj", "{8E5BBD6B-A9C9-4E5F-B858-68C85ACCFD74}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -19,14 +21,18 @@ Global
 		{C31FBA4D-C8CC-405F-9D7D-D3567C534171}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C31FBA4D-C8CC-405F-9D7D-D3567C534171}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C31FBA4D-C8CC-405F-9D7D-D3567C534171}.Release|Any CPU.Build.0 = Release|Any CPU
-		{1C8FD01C-535D-4A69-AB59-BA985D199EE8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{1C8FD01C-535D-4A69-AB59-BA985D199EE8}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{1C8FD01C-535D-4A69-AB59-BA985D199EE8}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{1C8FD01C-535D-4A69-AB59-BA985D199EE8}.Release|Any CPU.Build.0 = Release|Any CPU
 		{E7625AEA-7FC2-4C93-812B-1029A48DB2E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{E7625AEA-7FC2-4C93-812B-1029A48DB2E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E7625AEA-7FC2-4C93-812B-1029A48DB2E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E7625AEA-7FC2-4C93-812B-1029A48DB2E4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{82EEAF19-32B1-44DF-9FCB-CC539BAF6AFE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{82EEAF19-32B1-44DF-9FCB-CC539BAF6AFE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{82EEAF19-32B1-44DF-9FCB-CC539BAF6AFE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{82EEAF19-32B1-44DF-9FCB-CC539BAF6AFE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8E5BBD6B-A9C9-4E5F-B858-68C85ACCFD74}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E5BBD6B-A9C9-4E5F-B858-68C85ACCFD74}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E5BBD6B-A9C9-4E5F-B858-68C85ACCFD74}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E5BBD6B-A9C9-4E5F-B858-68C85ACCFD74}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,0 +1,14 @@
+C:\Users\roth5\Documents\AsignadorDeCuentasContables\AsignadorDeCuentasContables\obj\Debug\net8.0\AsignadorDeCuentasContables.csproj.AssemblyReference.cache
+C:\Users\roth5\Documents\AsignadorDeCuentasContables\AsignadorDeCuentasContables\obj\Debug\net8.0\AsignadorDeCuentasContables.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\roth5\Documents\AsignadorDeCuentasContables\AsignadorDeCuentasContables\obj\Debug\net8.0\AsignadorDeCuentasContables.AssemblyInfoInputs.cache
+C:\Users\roth5\Documents\AsignadorDeCuentasContables\AsignadorDeCuentasContables\obj\Debug\net8.0\AsignadorDeCuentasContables.AssemblyInfo.cs
+C:\Users\roth5\Documents\AsignadorDeCuentasContables\AsignadorDeCuentasContables\obj\Debug\net8.0\AsignadorDeCuentasContables.csproj.CoreCompileInputs.cache
+C:\Users\roth5\Documents\AsignadorDeCuentasContables\AsignadorDeCuentasContables\obj\Debug\net8.0\AsignadorDeCuentasContables.sourcelink.json
+C:\Users\roth5\Documents\AsignadorDeCuentasContables\AsignadorDeCuentasContables\bin\Debug\net8.0\appsettings.json
+C:\Users\roth5\Documents\AsignadorDeCuentasContables\AsignadorDeCuentasContables\bin\Debug\net8.0\AsignadorDeCuentasContables.deps.json
+C:\Users\roth5\Documents\AsignadorDeCuentasContables\AsignadorDeCuentasContables\bin\Debug\net8.0\AsignadorDeCuentasContables.dll
+C:\Users\roth5\Documents\AsignadorDeCuentasContables\AsignadorDeCuentasContables\bin\Debug\net8.0\AsignadorDeCuentasContables.pdb
+C:\Users\roth5\Documents\AsignadorDeCuentasContables\AsignadorDeCuentasContables\obj\Debug\net8.0\AsignadorDeCuentasContables.dll
+C:\Users\roth5\Documents\AsignadorDeCuentasContables\AsignadorDeCuentasContables\obj\Debug\net8.0\refint\AsignadorDeCuentasContables.dll
+C:\Users\roth5\Documents\AsignadorDeCuentasContables\AsignadorDeCuentasContables\obj\Debug\net8.0\AsignadorDeCuentasContables.pdb
+C:\Users\roth5\Documents\AsignadorDeCuentasContables\AsignadorDeCuentasContables\obj\Debug\net8.0\ref\AsignadorDeCuentasContables.dll

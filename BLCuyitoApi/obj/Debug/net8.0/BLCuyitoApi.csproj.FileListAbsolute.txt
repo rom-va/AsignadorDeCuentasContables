@@ -1,0 +1,14 @@
+C:\Users\roth5\Documents\AsignadorDeCuentasContables\AsignadorDeCuentasContables\bin\Debug\net8.0\appsettings.json
+C:\Users\roth5\Documents\AsignadorDeCuentasContables\AsignadorDeCuentasContables\bin\Debug\net8.0\BLCuyitoApi.deps.json
+C:\Users\roth5\Documents\AsignadorDeCuentasContables\AsignadorDeCuentasContables\bin\Debug\net8.0\BLCuyitoApi.dll
+C:\Users\roth5\Documents\AsignadorDeCuentasContables\AsignadorDeCuentasContables\bin\Debug\net8.0\BLCuyitoApi.pdb
+C:\Users\roth5\Documents\AsignadorDeCuentasContables\AsignadorDeCuentasContables\obj\Debug\net8.0\BLCuyitoApi.csproj.AssemblyReference.cache
+C:\Users\roth5\Documents\AsignadorDeCuentasContables\AsignadorDeCuentasContables\obj\Debug\net8.0\BLCuyitoApi.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\roth5\Documents\AsignadorDeCuentasContables\AsignadorDeCuentasContables\obj\Debug\net8.0\BLCuyitoApi.AssemblyInfoInputs.cache
+C:\Users\roth5\Documents\AsignadorDeCuentasContables\AsignadorDeCuentasContables\obj\Debug\net8.0\BLCuyitoApi.AssemblyInfo.cs
+C:\Users\roth5\Documents\AsignadorDeCuentasContables\AsignadorDeCuentasContables\obj\Debug\net8.0\BLCuyitoApi.csproj.CoreCompileInputs.cache
+C:\Users\roth5\Documents\AsignadorDeCuentasContables\AsignadorDeCuentasContables\obj\Debug\net8.0\BLCuyitoApi.sourcelink.json
+C:\Users\roth5\Documents\AsignadorDeCuentasContables\AsignadorDeCuentasContables\obj\Debug\net8.0\BLCuyitoApi.dll
+C:\Users\roth5\Documents\AsignadorDeCuentasContables\AsignadorDeCuentasContables\obj\Debug\net8.0\refint\BLCuyitoApi.dll
+C:\Users\roth5\Documents\AsignadorDeCuentasContables\AsignadorDeCuentasContables\obj\Debug\net8.0\BLCuyitoApi.pdb
+C:\Users\roth5\Documents\AsignadorDeCuentasContables\AsignadorDeCuentasContables\obj\Debug\net8.0\ref\BLCuyitoApi.dll

@@ -1,0 +1,27 @@
+{
+  "id": "a04e43ed-08b9-42ec-aa66-96da6a5fe726",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "message": {
+        "content": "63292\tLegalizaci\u02C7n notarial de documentos\t0.00\t\n63152\tTour de gerencia a B\u00DAlgica\t0.00\t\n6021\tFertilizantes\t0.00\t\n6021\tSemillas de arveja\t0.00\t\n635621\tJabas\t432.00\t\n631110\ttransporte de exportaci\u02C7n\t360.00\t\n631110\ttransporte de exportaci\u02C7n\t126.00",
+        "role": "assistant"
+      }
+    }
+  ],
+  "created": 1752804304,
+  "model": "deepseek-chat",
+  "system_fingerprint": "fp_8802369eaa_prod0623_fp8_kvcache",
+  "object": "chat.completion",
+  "usage": {
+    "completion_tokens": 100,
+    "prompt_tokens": 1511,
+    "prompt_cache_hit_tokens": 64,
+    "prompt_cache_miss_tokens": 1447,
+    "total_tokens": 1611,
+    "prompt_tokens_details": {
+      "cached_tokens": 64
+    }
+  }
+}

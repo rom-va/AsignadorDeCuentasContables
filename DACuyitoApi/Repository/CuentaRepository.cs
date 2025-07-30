@@ -11,19 +11,40 @@ using Microsoft.Data.SqlClient;
 
 namespace DACuyitoApi.Repository
 {
-    public class CuentaRepository : IRepository<Cuenta>
+    public class CuentaRepository : IRepository<Cuenta, int>
     {
-        bool IRepository<Cuenta>.Create(Cuenta entity)
+        
+        private readonly string _connectionString;
+        public CuentaRepository()
         {
-            using (SqlConnection conn = new SqlConnection(ConnHelper.GetConnectionString()))
+            _connectionString = ConnHelper.GetConnectionString();
+        }
+
+        public bool Create(Cuenta entity)
+        {
+            // Pre-condition validations
+            
+            if (entity == null)
+                throw new ArgumentNullException(nameof(entity));
+
+            if (entity.UsuarioID <= 0)
+                throw new ArgumentOutOfRangeException(nameof(entity.UsuarioID),
+                    entity.UsuarioID,
+                    "UsuarioID deebe ser mayor que cero.");
+            if (entity.UsuarioCreacionID <= 0)
+                throw new ArgumentOutOfRangeException(nameof(entity.UsuarioCreacionID),
+                    entity.UsuarioCreacionID,
+                    "UsuarioCreacionID deebe ser mayor que cero.");
+
+            using (SqlConnection conn = new SqlConnection(_connectionString))
             {
-                string cmdText = @"
+                const string cmdText = @"
                     INSERT INTO SsApiCuentas (UsuarioID, BalanceSoles, BalanceDolares, UsuarioCreacionID, FechaCreacion)
                     VALUES (@Id, @BalanceSoles, @BalanceDolares, @UsuarioCreacionID, @FechaCreacion)"
                     ;
                 using (SqlCommand cmd = new SqlCommand(cmdText, conn))
                 {
-                    var parameters = new []
+                    var parameters = new[]
                     {
                         new SqlParameter("@Id", SqlDbType.Int) { Value = entity.UsuarioID },
                         new SqlParameter("@BalanceSoles", SqlDbType.Decimal) { Value = entity.BalanceSoles },
@@ -38,24 +59,24 @@ namespace DACuyitoApi.Repository
                     {
                         conn.Open();
                         int result = cmd.ExecuteNonQuery();
-                        if (result == 1) // A single row was affected
+                        if (result == 1)
                             return true;
                         else return false;
                     }
                     catch (SqlException ex)
                     {
-                        Console.WriteLine("Error when creating a new account: " + ex.Message);
+                        Console.WriteLine("Error creating account: " + ex.Message);
                         return false;
                     }
                 }
             }
         }
 
-        bool IRepository<Cuenta>.DeleteById(int id)
+        public bool DeleteById(int id)
         {
-            using (SqlConnection conn = new SqlConnection(ConnHelper.GetConnectionString()))
+            using (SqlConnection conn = new SqlConnection(_connectionString))
             {
-                string cmdText = @"
+                const string cmdText = @"
                     DELETE FROM SsApiCuentas
                     WHERE UsuarioID = @Id"
                     ;
@@ -80,11 +101,11 @@ namespace DACuyitoApi.Repository
             }
         }
 
-        Cuenta? IRepository<Cuenta>.GetByID(int id)
+        public Cuenta? GetByID(int id)
         {
-            using (SqlConnection conn = new SqlConnection(ConnHelper.GetConnectionString()))
+            using (SqlConnection conn = new SqlConnection(_connectionString))
             {
-                string cmdText = @"SELECT *
+                const string cmdText = @"SELECT *
                     FROM SsApiCuentas
                     WHERE UsuarioID = @Id"
                     ;
@@ -126,11 +147,11 @@ namespace DACuyitoApi.Repository
             }
         }
 
-        bool IRepository<Cuenta>.Update(Cuenta entity)
+        public bool Update(Cuenta entity)
         {
-            using (SqlConnection conn = new SqlConnection(ConnHelper.GetConnectionString()))
+            using (SqlConnection conn = new SqlConnection(_connectionString))
             {
-                string cmdText = @"
+                const string cmdText = @"
                     UPDATE SsApiCuentas
                     SET BalanceSoles = @BalanceSoles,
                         BalanceDolares = @BalanceDolares,

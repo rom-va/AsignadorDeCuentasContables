@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace DACuyitoApi.Repository
 {
-     public interface IRepository<T>
+     public interface IRepository<T, TKey>
     {
-        public bool Create(T entity);
-        public T? GetByID(int id);
-        public bool Update(T entity);
-        public bool DeleteById(int id);
+        bool Create(T entity);
+        T? GetByID(TKey id);
+        bool Update(T entity);
+        bool DeleteById(TKey id);
     }
 }

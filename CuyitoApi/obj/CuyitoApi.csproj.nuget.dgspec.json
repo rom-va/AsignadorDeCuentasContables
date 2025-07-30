@@ -4,14 +4,14 @@
     "C:\\Users\\roth5\\Documents\\AsignadorDeCuentasContables\\CuyitoApi\\CuyitoApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\roth5\\Documents\\AsignadorDeCuentasContables\\AsignadorDeCuentasContables\\BLCuyitoApi.csproj": {
+    "C:\\Users\\roth5\\Documents\\AsignadorDeCuentasContables\\BLCuyitoApi\\BLCuyitoApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\roth5\\Documents\\AsignadorDeCuentasContables\\AsignadorDeCuentasContables\\BLCuyitoApi.csproj",
+        "projectUniqueName": "C:\\Users\\roth5\\Documents\\AsignadorDeCuentasContables\\BLCuyitoApi\\BLCuyitoApi.csproj",
         "projectName": "BLCuyitoApi",
-        "projectPath": "C:\\Users\\roth5\\Documents\\AsignadorDeCuentasContables\\AsignadorDeCuentasContables\\BLCuyitoApi.csproj",
+        "projectPath": "C:\\Users\\roth5\\Documents\\AsignadorDeCuentasContables\\BLCuyitoApi\\BLCuyitoApi.csproj",
         "packagesPath": "C:\\Users\\roth5\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\roth5\\Documents\\AsignadorDeCuentasContables\\AsignadorDeCuentasContables\\obj\\",
+        "outputPath": "C:\\Users\\roth5\\Documents\\AsignadorDeCuentasContables\\BLCuyitoApi\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -108,8 +108,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\roth5\\Documents\\AsignadorDeCuentasContables\\AsignadorDeCuentasContables\\BLCuyitoApi.csproj": {
-                "projectPath": "C:\\Users\\roth5\\Documents\\AsignadorDeCuentasContables\\AsignadorDeCuentasContables\\BLCuyitoApi.csproj"
+              "C:\\Users\\roth5\\Documents\\AsignadorDeCuentasContables\\BLCuyitoApi\\BLCuyitoApi.csproj": {
+                "projectPath": "C:\\Users\\roth5\\Documents\\AsignadorDeCuentasContables\\BLCuyitoApi\\BLCuyitoApi.csproj"
               }
             }
           }

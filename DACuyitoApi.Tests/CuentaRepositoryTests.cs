@@ -24,7 +24,7 @@ namespace DACuyitoApi.Tests
                 FechaCreacion = DateTime.Now
             };
             
-            IRepository<Cuenta> repo = new CuentaRepository();
+            IRepository<Cuenta, int> repo = new CuentaRepository();
             bool result = repo.Create(cuenta);
 
             Assert.AreEqual(result, true);
@@ -42,7 +42,7 @@ namespace DACuyitoApi.Tests
                 FechaCreacion = DateTime.Now
             };
 
-            IRepository<Cuenta> repo = new CuentaRepository();
+            IRepository<Cuenta, int> repo = new CuentaRepository();
             bool result = repo.Create(cuenta);
 
             /* 
@@ -72,7 +72,7 @@ namespace DACuyitoApi.Tests
                 FechaCreacion = DateTime.Now
             };
 
-            IRepository<Cuenta> repo = new CuentaRepository();
+            IRepository<Cuenta, int> repo = new CuentaRepository();
             bool result = repo.Create(cuenta);
 
             Assert.AreEqual(result, true);
@@ -87,7 +87,7 @@ namespace DACuyitoApi.Tests
                 FechaCreacion = DateTime.Now
             };
 
-            IRepository<Cuenta> repo = new CuentaRepository();
+            IRepository<Cuenta, int> repo = new CuentaRepository();
             bool result = repo.Create(cuenta);
 
             Assert.AreEqual(result, false);
@@ -101,7 +101,7 @@ namespace DACuyitoApi.Tests
                 UsuarioID = 1099
             };
 
-            IRepository<Cuenta> repo = new CuentaRepository();
+            IRepository<Cuenta, int> repo = new CuentaRepository();
             bool result = repo.Create(cuenta);
 
             Assert.AreEqual(result, false);
@@ -110,7 +110,7 @@ namespace DACuyitoApi.Tests
         [TestMethod]
         public void GetById_Id1099()
         {
-            IRepository<Cuenta> repo = new CuentaRepository();
+            IRepository<Cuenta, int> repo = new CuentaRepository();
             var result = repo.GetByID(1099);
 
             Assert.IsInstanceOfType(result, typeof(Cuenta));
@@ -127,7 +127,7 @@ namespace DACuyitoApi.Tests
         [TestMethod]
         public void GetById_NonexistentId()
         {
-            IRepository<Cuenta> repo = new CuentaRepository();
+            IRepository<Cuenta, int> repo = new CuentaRepository();
             var result = repo.GetByID(0000);
 
             Assert.IsNull(result);
@@ -136,7 +136,7 @@ namespace DACuyitoApi.Tests
         [TestMethod]
         public void DeleteById_Id1099()
         {
-            IRepository<Cuenta> repo = new CuentaRepository();
+            IRepository<Cuenta, int> repo = new CuentaRepository();
             bool result = repo.DeleteById(1099);
 
             Assert.AreEqual(result, true);
@@ -154,7 +154,7 @@ namespace DACuyitoApi.Tests
                 FechaModificacion = DateTime.Now
             };
 
-            IRepository<Cuenta> repo = new CuentaRepository();
+            IRepository<Cuenta, int> repo = new CuentaRepository();
             bool result = repo.Update(cuenta);
 
             Assert.AreEqual(result, true);
